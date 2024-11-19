@@ -1,4 +1,4 @@
-<?php include 'db.php'; ?>
+<?php include '../Modelo/db.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,7 @@
 
             if ($conn->query($sql) === TRUE) {
                 echo "<div class='alert alert-success'>Producto creado correctamente</div>";
-                echo "<a href='crear.php' class='btn btn-primary'>Volver al Inventario</a>";
+                echo "<a href='crear_inventario.php' class='btn btn-primary'>Volver al Inventario</a>";
             } else {
                 echo "<div class='alert alert-danger'>Error: " . $conn->error . "</div>";
             }
@@ -68,7 +68,7 @@
                 <input type="text" class="form-control" id="estado_rotacion" name="estado_rotacion" required>
             </div>
             <button type="submit" class="btn btn-primary">Crear Producto</button>
-            <a href="crear.php" class="btn btn-secondary">Cancelar</a>
+            <a href="crear_inventario.php" class="btn btn-secondary">Cancelar</a>
         </form>
     </div>
 </body>

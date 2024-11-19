@@ -10,9 +10,9 @@
     <div class="container my-4">
         <h1 class="text-center">Gestión de Inventario</h1>
         <div class="d-grid gap-3 my-4">
-            <a href="listar.php" class="btn btn-primary">Listar Inventario</a>
+            <a href="listar_inventario.php" class="btn btn-primary">Listar Inventario</a>
             <a href="listar_productos.php" class="btn btn-info">Listar Productos</a>
-            <a href="crear.php" class="btn btn-success">Agregar al Inventario</a>
+            <a href="crear_inventario.php" class="btn btn-success">Agregar al Inventario</a>
         </div>
     </div>
 </body>

@@ -1,4 +1,4 @@
-<?php include 'db.php';
+<?php include '../Modelo/db.php';;
 
 if (isset($_GET['id'])) {
     $id = intval($_GET['id']);

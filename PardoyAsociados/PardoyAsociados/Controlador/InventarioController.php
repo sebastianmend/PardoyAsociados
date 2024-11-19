@@ -1,5 +1,5 @@
 <?php
-require_once "app/modelos/Inventario.php";
+require_once "app/modelo/Inventario.php";
 
 class InventarioController {
     private $modelo;
